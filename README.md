@@ -32,5 +32,5 @@ Project follows the colour palette: [colorhunt.co/palette/402218865439c68b59d7b1
 1. GUI with intensity scale and additions checkboxes
 2. Fuzzy logic model implementation
 3. Success & error messages 
-4. Saving output values to .css
+4. Saving output values to .csv
 5. Evaluation
