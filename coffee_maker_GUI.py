@@ -13,7 +13,7 @@ l1 = tk.Label(root, text = "Welcome to the coffe_maker!", bg = "#D7B19D", fg = "
 #l1.place(x = 360, y = 100, anchor = "center")
 l1.pack()
 
-l2 = tk.Label(root, text = "choose body (heaviness) of your dream coffee", bg = "#D7B19D", fg = "#402218", font = ("Arial", 18))
+l2 = tk.Label(root, text = "choose intensity of your dream coffee", bg = "#D7B19D", fg = "#402218", font = ("Arial", 18))
 #l2.place(x = 355, y = 135, anchor = "center")
 l2.pack()
 
@@ -26,11 +26,11 @@ l2.pack()
 v1 = tk.DoubleVar()
 def show1():  
     """Function to display intensity value"""  
-    sel1 = "Chosen body value: " + str(v1.get())
+    sel1 = "Chosen intensity value: " + str(v1.get())
     l3 = tk.Label(root, text = sel1, bg = "#D7B19D", fg = "#402218")
     l3.place(x = 140, y = 200)
     
-    sel2 = "Chosen aroma value: " + str(v2.get())
+    sel2 = "Chosen water amount: " + str(v2.get())
     l4 = tk.Label(root, text = sel2, bg = "#D7B19D", fg = "#402218")
     l4.place(x = 135, y = 220)
     
@@ -46,14 +46,14 @@ s1 = tk.Scale(root, variable = v1, from_ = 1, to = 10, resolution = 0.1, orient 
 s1.pack()
 
 
-l4 = tk.Label(root, text = "choose aroma of your dream coffee", bg = "#D7B19D", fg = "#402218", font = ("Arial", 18))
+l4 = tk.Label(root, text = "choose amount of your dream coffee", bg = "#D7B19D", fg = "#402218", font = ("Arial", 18))
 #l2.place(x = 355, y = 135, anchor = "center")
 l4.pack()
 
 
 v2 = tk.DoubleVar()
 #aroma scale
-s2 = tk.Scale(root, variable = v2, from_ = 1, to = 10, resolution = 0.1, orient = "horizontal",  
+s2 = tk.Scale(root, variable = v2, from_ = 60, to = 330, orient = "horizontal",  
                  bg = "#D7B19D", fg = "#865439", troughcolor = "#D7B19D")
 #s1.place(x = 350, y = 150)
 s2.pack()
