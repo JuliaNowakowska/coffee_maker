@@ -37,19 +37,27 @@ Project follows the colour palette: [colorhunt.co/palette/402218865439c68b59d7b1
 
 ## Fuzzy logic model
 The graphs below illustrate Mamdani logic model that is used in order to compute value of the output variable.
+
+### Input and output variables 
 <img width="574" alt="Zrzut ekranu 2022-04-28 o 21 29 30" src="https://user-images.githubusercontent.com/45031945/165831754-c41de6a4-2cf4-4aa1-8b48-ae9322354d8b.png">
 
-<img width="748" alt="Zrzut ekranu 2022-04-28 o 21 30 09" src="https://user-images.githubusercontent.com/45031945/165831798-f4c804a0-c9cf-4d00-856f-42a5ff1bec90.png">
+### Functions describing each of the variable
+input variable: intensity
+All ranges indicated by triangle functions with following coefficients:
+* light-bodied/delicate [0, 0, 4.75]
+* balanced/rich [1.75, 5.5, 9.25]
+* rounded-bodied/generous [6.25, 10, 10]
+<img width="574" alt="Zrzut ekranu 2022-04-28 o 21 30 09" src="https://user-images.githubusercontent.com/45031945/165831798-f4c804a0-c9cf-4d00-856f-42a5ff1bec90.png">
 
-<img width="748" alt="Zrzut ekranu 2022-04-28 o 21 30 14" src="https://user-images.githubusercontent.com/45031945/165831801-c28abd05-9d9b-4fec-bb16-fb2f5a0b85d4.png">
+<img width="574" alt="Zrzut ekranu 2022-04-28 o 21 30 14" src="https://user-images.githubusercontent.com/45031945/165831801-c28abd05-9d9b-4fec-bb16-fb2f5a0b85d4.png">
 
-<img width="748" alt="Zrzut ekranu 2022-04-28 o 21 30 19" src="https://user-images.githubusercontent.com/45031945/165831816-05de7993-c32e-4618-ac3d-5ceed69d70be.png">
+<img width="574" alt="Zrzut ekranu 2022-04-28 o 21 30 19" src="https://user-images.githubusercontent.com/45031945/165831816-05de7993-c32e-4618-ac3d-5ceed69d70be.png">
 
-<img width="560" alt="Zrzut ekranu 2022-04-28 o 21 30 38" src="https://user-images.githubusercontent.com/45031945/165831828-8b92e51f-006e-41db-a99e-c644ef23bd9b.png">
+<img width="574" alt="Zrzut ekranu 2022-04-28 o 21 30 38" src="https://user-images.githubusercontent.com/45031945/165831828-8b92e51f-006e-41db-a99e-c644ef23bd9b.png">
 
-<img width="560" alt="Zrzut ekranu 2022-04-28 o 21 30 57" src="https://user-images.githubusercontent.com/45031945/165831841-640de19b-2f62-492c-be7b-96502629ab4a.png">
+<img width="574" alt="Zrzut ekranu 2022-04-28 o 21 30 57" src="https://user-images.githubusercontent.com/45031945/165831841-640de19b-2f62-492c-be7b-96502629ab4a.png">
 
-<img width="571" alt="Zrzut ekranu 2022-04-28 o 21 31 35" src="https://user-images.githubusercontent.com/45031945/165831856-ea3db89e-c8f6-4e5a-8ed7-eea613d5dd00.png">
+<img width="574" alt="Zrzut ekranu 2022-04-28 o 21 31 35" src="https://user-images.githubusercontent.com/45031945/165831856-ea3db89e-c8f6-4e5a-8ed7-eea613d5dd00.png">
 
-<img width="571" alt="Zrzut ekranu 2022-04-28 o 21 32 16" src="https://user-images.githubusercontent.com/45031945/165831864-3b84f69e-0c59-49d7-b10f-ab67d07a5bd9.png">
+<img width="574" alt="Zrzut ekranu 2022-04-28 o 21 32 16" src="https://user-images.githubusercontent.com/45031945/165831864-3b84f69e-0c59-49d7-b10f-ab67d07a5bd9.png">
 
